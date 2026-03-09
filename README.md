@@ -1,8 +1,9 @@
+> [!NOTE]  
+> Project Alive Soon - WAI
+
 <p align="center">
     <a href="https://github.com/SilentDemonSD/WZML-X">
-        <kbd>
-            <img width="250" src="https://graph.org/file/639fe4239b78e5862b302.jpg" alt="WZML-X Logo">
-        </kbd>
+        <img width="400" src=".\docs\WZML-X.png" alt="WZML-X Logo">
     </a>
 
 <i>This repository is a feature-enhanced version of the [mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot). It integrates various improvements from multiple sources, expanding functionality while maintaining efficiency. Unlike the base repository, this version is fully deployable on Heroku.</i>
