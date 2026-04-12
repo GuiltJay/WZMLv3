@@ -1,6 +1,8 @@
 .venv/*
+SKILL.md
 config.py
 token.pickle
+credentials.json
 rclone.conf
 .netrc
 log.txt
