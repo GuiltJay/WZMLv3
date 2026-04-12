@@ -169,7 +169,7 @@ Total time for 5 projects: ~15-30 minutes
 
 | Error | Cause | Solution |
 |-------|-------|----------|
-| `No credentials found` | Missing credentials.json | Run generate_drive_token first |
+| `No credentials found` | Missing credentials.json | Run gen_token_pickle first |
 | `Cannot create N projects` | Exceeds 12 project limit | Delete existing projects or use --max-projects |
 | `Error creating projects` | API rate limit | Wait and retry |
 | `Error enabling services` | Project not ready | Wait and retry |
@@ -204,6 +204,6 @@ Total time for 5 projects: ~15-30 minutes
 
 ## Related Scripts
 
-- **generate_drive_token** - Initial OAuth authentication
+- **gen_token_pickle** - Initial OAuth authentication
 - **add_to_team_drive** - Add accounts to Team Drive
 - **driveid** - Configure drives to search

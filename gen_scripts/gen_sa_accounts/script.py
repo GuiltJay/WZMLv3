@@ -485,7 +485,7 @@ Workflow:
         print("   - Google Drive API")
         print("4. Create OAuth 2.0 credentials (Desktop app)")
         print("5. Download as 'credentials.json'")
-        print("\nOr use the generate_drive_token script first.")
+        print("\nOr use the gen_token_pickle script first.")
         if not options:
             exit("No credential files found in current directory.")
         else:

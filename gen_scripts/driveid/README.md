@@ -166,7 +166,7 @@ If you have a Google Index (search interface) for a drive:
 
 | Goal | Next Action |
 |------|--------------|
-| Generate token | Run `generate_drive_token` script |
+| Generate token | Run `gen_token_pickle` script |
 | Add service accounts | Run `gen_sa_accounts` script |
 | Test bot | Start bot and search a file |
 
@@ -174,6 +174,6 @@ If you have a Google Index (search interface) for a drive:
 
 ## Related Scripts
 
-- **generate_drive_token** - Authenticate with Google Drive
+- **gen_token_pickle** - Authenticate with Google Drive
 - **gen_sa_accounts** - Create service accounts for Team Drives
 - **add_to_team_drive** - Add service accounts to Team Drive

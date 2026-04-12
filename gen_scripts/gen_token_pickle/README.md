@@ -62,7 +62,7 @@ gen_scripts/config/credentials.json
 ### Step 3: Run the Script
 
 ```bash
-cd gen_scripts/generate_drive_token
+cd gen_scripts/gen_token_pickle
 python script.py
 ```
 
@@ -108,11 +108,11 @@ No environment variables required. All paths are relative to script location.
 
 ```bash
 # Standard run (token auto-generated)
-cd gen_scripts/generate_drive_token
+cd gen_scripts/gen_token_pickle
 python script.py
 
 # Alternative: Run from gen_scripts root
-python -m generate_drive_token.script
+python -m gen_token_pickle.script
 ```
 
 ---

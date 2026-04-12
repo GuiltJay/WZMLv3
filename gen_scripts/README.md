@@ -56,7 +56,7 @@ Use this flowchart to find the right script for your use case:
 
 ```
 1. Generate Drive Token
-   cd gen_scripts/generate_drive_token
+   cd gen_scripts/gen_token_pickle
    python script.py
 
 2. Configure Drives
@@ -86,7 +86,7 @@ Use this flowchart to find the right script for your use case:
 
 | Script | Purpose | Complexity | Time |
 |--------|---------|------------|------|
-| [generate_drive_token](./generate_drive_token/) | Create Google OAuth token | Beginner | 1 min |
+| [gen_token_pickle](./gen_token_pickle/) | Create Google OAuth token | Beginner | 1 min |
 | [gen_pyro_session](./gen_pyro_session/) | Create Telegram session | Beginner | 2 min |
 | [driveid](./driveid/) | Configure drives to search | Beginner | 2 min |
 | [gen_sa_accounts](./gen_sa_accounts/) | Create service accounts | Advanced | 15-30 min |
@@ -99,7 +99,7 @@ Use this flowchart to find the right script for your use case:
 ```
 gen_scripts/
 ├── README.md                    # This file
-├── generate_drive_token/
+├── gen_token_pickle/
 │   ├── README.md                # Documentation
 │   └── script.py                # Token generator
 ├── gen_pyro_session/
@@ -129,14 +129,14 @@ gen_scripts/
 ### Workflow 1: Basic Google Drive Setup
 
 ```
-1. generate_drive_token → Creates OAuth token
+1. gen_token_pickle → Creates OAuth token
 2. driveid              → Configures which drives to search
 ```
 
 ### Workflow 2: Full Team Drive Setup
 
 ```
-1. generate_drive_token     → Creates OAuth token
+1. gen_token_pickle     → Creates OAuth token
 2. gen_sa_accounts --quick-setup N → Creates N projects with SAs
 3. add_to_team_drive -d "ID" → Adds SAs to Team Drive
 4. driveid                  → Adds Team Drive to search list
@@ -164,7 +164,7 @@ gen_scripts/
 
 | Script | Required |
 |--------|----------|
-| generate_drive_token | Google credentials.json |
+| gen_token_pickle | Google credentials.json |
 | gen_pyro_session | Telegram API key + hash from my.telegram.org |
 | driveid | None |
 | gen_sa_accounts | Google credentials.json (with APIs enabled) |

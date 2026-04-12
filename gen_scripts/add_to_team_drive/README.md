@@ -131,14 +131,14 @@ The script:
 | Error | Cause | Solution |
 |-------|-------|----------|
 | `No service account files` | Run gen_sa_accounts first | Create service accounts |
-| `No credentials found` | Missing credentials.json | Run generate_drive_token |
+| `No credentials found` | Missing credentials.json | Run gen_token_pickle |
 | `Manager access required` | Insufficient permissions | Ensure your account is Manager |
 | `Batch execution failed` | API rate limit | Wait and retry |
 
 ### Common Issues
 
 **"Authentication failed"**
-- Run generate_drive_token first
+- Run gen_token_pickle first
 - Ensure credentials.json is valid
 
 **"Manager access required"**
@@ -164,5 +164,5 @@ The script:
 ## Related Scripts
 
 - **gen_sa_accounts** - Create service accounts
-- **generate_drive_token** - Authenticate with Google
+- **gen_token_pickle** - Authenticate with Google
 - **driveid** - Configure drives to search
