@@ -1,4 +1,5 @@
 aiofiles
+pymediainfo>=6.1.0
 aiohttp
 aioshutil
 anytree==2.8.0
@@ -30,7 +31,7 @@ psutil
 pybase64
 pycountry
 pymongo
-pyrofork==2.2.11
+kurigram
 python-dotenv
 python-magic
 qbittorrent-api
