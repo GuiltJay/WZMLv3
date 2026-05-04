@@ -1,10 +1,11 @@
-aiohttp[speedups]
+pymediainfo>=6.1.0
 aiofiles
+aiohttp
 aioshutil
 anytree==2.8.0
 apscheduler
 aria2p
-asyncio
+brotlicffi
 beautifulsoup4
 cinemagoer
 cloudscraper
